@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* Start my own code here */
+
+@font-face
+{
+    font-family: georgia;
+    src: url(fonts/georgiab.ttf);
+}
+
+@font-face
+{
+    font-family: arial_bold;
+    src: url(fonts/arialbd.ttf);
+}
+@font-face
+{
+    font-family: arial;
+    src: url(fonts/arial.ttf);
+}
+
+body {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav {
+	width: 960px;
+	height: 97px;
+	margin-bottom: 23px;
+	position: relative;
+}
+
+/* Tor CSS */
+
+h1#logo {
+    margin: 0;
+    float: left;
+  }
+
+	h1#logo a,
+	h1#logo a:visited {
+		background: url(../images/tor-logo.jpg) left top no-repeat;
+		text-indent: -9999px;
+		overflow: hidden;
+		width: 150px;
+		height: 97px;
+		display: block;
+	}
+
+#nav {
+	  float: right;
+	}
+
+		#nav ul {
+			height: 50px;
+			float: right;
+			margin-bottom: 0;
+		}
+
+			#nav ul li {
+				float: left;
+				display: inline;
+				width: auto;
+			}
+
+
+
+p, blockquote, ol, ul, dd {
+	font-size: 1em;
+	line-height: 20px;
+	margin-bottom: 18px;
+}
+
+
+#nav ul {
+	font-family: arial;
+	font-size: 1em; }
+
+  #nav ul li { list-style: none; }
+
+  #nav ul li a:link,
+  #nav ul li a:visited {
+    color: #23300e;
+    text-decoration: none;
+    padding: 10px 20px 0;
+    height: 40px;
+    float: left;
+  }
+  #nav ul li a:hover,
+  #nav ul li a.active { background: url(../images/bg-nav-hover.jpg) left top repeat-x;}
+  #nav ul li a.active { font-weight: bold; }
+
+
+.itemcontainer {
+	margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.item {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 35px;
+	text-align: center;
+	float: left;
+	width: 285px;
+}
+
+.item h2 {
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.4em;
+	color: rgb(74,99,59);
+}
+
+
+.item img {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 125px;
+}
+
+.item p {
+	text-align: center;
+	font-family: arial;
+}
+
+.image {
+    text-align: center;
+}
+.image img {
+    height: 250px;
+    margin-bottom: 25px;
+}
+.image figcaption {
+    font-size: 2.4em;
+    line-height: 28px;
+    font-family: georgia;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.clear{
+	clear: both;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.footer {
+	text-align: center;
+	font-family: arial;
+}

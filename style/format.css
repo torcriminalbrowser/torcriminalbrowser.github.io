@@ -202,3 +202,13 @@ p, blockquote, ol, ul, dd {
 	text-align: center;
 	font-family: arial;
 }
+
+.footerleft {
+	float: left;
+	margin-left: 50px;
+}
+
+.footerright {
+	float: right;
+	margin-right: 50px;
+}

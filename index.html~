@@ -52,7 +52,7 @@
         
         <!-- Tor Image-->
         <figure class="image">
-            <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Tor-logo-2011-flat.svg/1280px-Tor-logo-2011-flat.svg.png"/> 
+            <img src="images/bitcoin.png"/> 
             <figcaption>The Web Browser for Criminals</figcaption>
         </figure>
         
@@ -102,7 +102,7 @@
             <!-- Row 2 -->
             <div class="item">
                 <h2>Bitcoin Integration</h2>
-                <img src="images/bitcoin.png"/>
+                <img src="https://bitcoin.org/img/opengraph.png"/>
                 <p>Euro, USD, and all other fiat currency values are automatically converted and shown as Bitcoin (the currency for criminals) when using Tor</p>
             </div>
             

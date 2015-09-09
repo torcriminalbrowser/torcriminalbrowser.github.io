@@ -1,8 +1,8 @@
 torcriminalbrowser.github.io
 ============================
-Obvious Parody is Obvious.
+http://www.torcriminalbrowser.com/
 
-Done by Jordan Rejaud
+Obvious Parody is Obvious.
 
 https://twitter.com/JordanRejaud
 
